@@ -1,0 +1,51 @@
+{
+  "app": "Rubik's Cube Solver",
+  "store": "Google Play · com.rubikscube.cubesolver.speedcube",
+  "flows": [
+    {
+      "channel": "YouTube",
+      "headline": "Finally solved. No more tutorials.",
+      "paywall_opens_on": "their solved cube, after six sides scanned and every move of the first cube free",
+      "note": "asks “Which cube is in your hand?”; the paywall reads “Now solve every cube you pick up”, “No ads while you solve” first"
+    },
+    {
+      "channel": "YouTube",
+      "headline": "Solve it the right way, move by move.",
+      "paywall_opens_on": "Weekly, with Beginner, Intermediate, Advanced and “You start here” on their answer",
+      "note": "asks “How far do you get on your own?”; first win is their Manual Input with the cube checked"
+    },
+    {
+      "channel": "Google",
+      "headline": "Every solve timed. Beat your best.",
+      "paywall_opens_on": "Yearly, after their first timed solve is saved",
+      "note": "asks “What’s your best time on a 3x3?”; the paywall reads “Beat 1:42.36” (an example time)"
+    }
+  ],
+  "prices": {
+    "yearly": "not public",
+    "weekly": "not public",
+    "trial": "unknown",
+    "source": "Google Play listing shows only “In-app purchases $1.99 – $14.99 per item”; the page shows “$—” on every plan"
+  },
+  "today": {
+    "text": "every install opens on the same home screen and, by the app's Play reviews, meets a weekly plan after a couple of free tries, with ads in between",
+    "source": "audit_frames"
+  },
+  "asks": [
+    "Which cube is in your hand?",
+    "How far do you get on your own?",
+    "What’s your best time on a 3x3?"
+  ],
+  "paywall": {
+    "headline": "Now solve every cube you pick up",
+    "uses_answers": true
+  },
+  "rebuild": "each ad opens its own first launch: one question, the first cube solved before any price, a paywall that says their answer back with “No ads” first, and one short ad on the paywall’s ✕ to finish what they started",
+  "ideas": [
+    {"n": 1, "title": "Solve their first cube before the price", "screen": "First win", "outcome": "CR +10–20%"},
+    {"n": 2, "title": "Ask one thing, name the paywall after it", "screen": "One question", "outcome": "CR +10–15%"},
+    {"n": 3, "title": "Put “No ads” first in Pro", "screen": "Paywall", "outcome": "CR +3–8%"},
+    {"n": 4, "title": "Show both plans, say when each renews", "screen": "Paywall", "outcome": "CR +5–10% · ARPU +3–8%"},
+    {"n": 5, "title": "Catch the people who close it", "screen": "On close", "outcome": "ARPU +5–10%"}
+  ]
+}
